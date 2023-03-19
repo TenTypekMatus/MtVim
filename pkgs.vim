@@ -32,4 +32,6 @@ Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 Plug 'aurieh/discord.nvim', { 'do': 'python3 -m pip install --user --upgrade pynvim --break-system-packages' }
 Plug 'tpope/vim-fugitive' 
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
 call plug#end()
