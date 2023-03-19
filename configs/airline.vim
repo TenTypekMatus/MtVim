@@ -27,15 +27,3 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 " more NERDTREE
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
