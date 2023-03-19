@@ -10,7 +10,6 @@ for f in glob('./configs/*.vim', 0, 1)
     execute 'source' f
 endfor
 
-" Start NERDTree and put the cursor back in the other window.
 colorscheme nord
 set number
 set encoding=UTF-8
