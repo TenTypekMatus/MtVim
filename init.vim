@@ -6,7 +6,7 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall | source ~/.config/nvim/init.vim
 endif
 
-for f in glob('./configs/*.vim', 0, 1)
+for f in glob('~/.config/nvim/configs/*.vim', 0, 1)
 	execute 'source' f
 endfor
 
