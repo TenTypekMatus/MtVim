@@ -30,8 +30,15 @@ Plug 'renyard/vim-git-flow-format'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
-Plug 'aurieh/discord.nvim', { 'do': 'python3 -m pip install --user --upgrade pynvim --break-system-packages' }
 Plug 'tpope/vim-fugitive' 
 Plug 'nvim-tree/nvim-web-devicons'
-Plug 'romgrk/barbar.nvim'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
+Plug 'ervandew/supertab'
 call plug#end()
