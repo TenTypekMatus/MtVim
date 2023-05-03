@@ -41,4 +41,8 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 Plug 'ervandew/supertab'
+Plug 'flazz/vim-colorschemes'
+Plug 'wfxr/minimap.vim'
+Plug 'kosayoda/nvim-lightbulb'
+Plug 'wincent/terminus'
 call plug#end()

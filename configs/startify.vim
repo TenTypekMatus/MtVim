@@ -4,4 +4,4 @@ function! s:gitUntracked()
 endfunction
 
        let g:startify_custom_header =
-        \ startify#pad(split(system('figlet MtVim'), '\n'))
+        \ startify#pad(split(system('clear; figlet MtVim'), '\n'))
