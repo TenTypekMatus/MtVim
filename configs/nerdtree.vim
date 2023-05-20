@@ -1,4 +1,4 @@
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-t> :NvimTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 lua <<END

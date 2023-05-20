@@ -12,3 +12,4 @@ endfor
 colorscheme nord
 set number
 set encoding=UTF-8
+set noshowmode
