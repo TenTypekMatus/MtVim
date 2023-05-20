@@ -13,7 +13,6 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'gelguy/wilder.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'mattn/emmet-vim'
@@ -30,7 +29,7 @@ Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 Plug 'tpope/vim-fugitive' 
 Plug 'nvim-tree/nvim-web-devicons'
-Plugin 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
