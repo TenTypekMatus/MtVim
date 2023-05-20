@@ -1,10 +1,9 @@
 call plug#begin()
-Plug 'ncm2/ncm2'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
-Plug 'arcticicestudio/nord-vim'
+Plug 'romgrk/barbar.nvim'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'arcticicestudio/nord-vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
@@ -22,16 +21,16 @@ Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'NvChad/base46'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'rafamadriz/friendly-snippets'
+Plug 'SirVer/ultisnips'
 Plug 'folke/which-key.nvim'
 Plug 'L3MON4D3/LuaSnip', {'do': 'make install_jsregexp'}
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'renyard/vim-git-flow-format'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 Plug 'tpope/vim-fugitive' 
 Plug 'nvim-tree/nvim-web-devicons'
+Plugin 'honza/vim-snippets'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else

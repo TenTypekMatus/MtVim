@@ -1,3 +1,3 @@
-nnoremap <C-A-n> :tabnew<CR>
-nnoremap <C-A-x> :tabnext<CR>
-nnoremap <C-A-c> :tabclose<CR>
+nnoremap <A-t> :tabnew<CR>
+nnoremap <A-n> :tabnext<CR>
+nnoremap <A-c> :tabclose<CR>
