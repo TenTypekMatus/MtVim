@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'romgrk/barbar.nvim'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-lualine/lualine.nvim'
@@ -30,7 +31,7 @@ Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 Plug 'tpope/vim-fugitive' 
 Plug 'nvim-tree/nvim-web-devicons'
-Plugin 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
