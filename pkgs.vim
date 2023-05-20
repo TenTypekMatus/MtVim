@@ -31,6 +31,8 @@ Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 Plug 'tpope/vim-fugitive' 
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'honza/vim-snippets'
+Plug 'RishabhRD/popfix'
+Plug 'RishabhRD/nvim-lsputils'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
