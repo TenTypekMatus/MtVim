@@ -36,17 +36,9 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'honza/vim-snippets'
 Plug 'RishabhRD/popfix'
 Plug 'RishabhRD/nvim-lsputils'
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'wfxr/minimap.vim'
 Plug 'kosayoda/nvim-lightbulb'
-Plug 'wincent/terminus'
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 call plug#end()
