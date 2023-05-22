@@ -1,4 +1,5 @@
 call plug#begin('~/.local/share/mtvim/plugins')
+Plug 'chrisbra/colorizer'
 Plug 'dense-analysis/ale'
 Plug 'romgrk/barbar.nvim'
 Plug 'lewis6991/gitsigns.nvim'
@@ -32,4 +33,14 @@ Plug 'honza/vim-snippets'
 Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
+if has('nvim')
+  function! UpdateRemotePlugins(...)
+    " Needed to refresh runtime files
+    let &rtp=&rtp
+    UpdateRemotePlugins
+  endfunction
+  Plug 'gelguy/wilder.nvim', { 'do': function('UpdateRemotePlugins') }
+else
+  Plug 'gelguy/wilder.nvim'
+endif
 call plug#end()
