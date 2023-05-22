@@ -38,7 +38,7 @@ require("which-key").setup({
 	window = {
 		border = "double", -- none, single, double, shadow
 		position = "bottom", -- bottom, top
-		winblend = 15, -- value between 0-100 0 for fully opaque and 100 for fully transparent
+		winblend = 0, -- value between 0-100 0 for fully opaque and 100 for fully transparent
 	},
 	layout = {
 		height = { min = 4, max = 25 }, -- min and max height of the columns
@@ -66,4 +66,4 @@ require("which-key").setup({
 	},
 })
 
-vim.cmd('nnoremap <A-h> :WhichKey<CR>)
+vim.cmd('nnoremap <A-h> :WhichKey<CR>')

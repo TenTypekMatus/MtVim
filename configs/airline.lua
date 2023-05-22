@@ -1,15 +1,9 @@
-lua << END
 require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = 'auto',
     component_separators = "|",
     section_separators = { left = '', right = ''},
-    disabled_filetypes = {
-      statusline = {},
-      winbar = {},
-    },
-    ignore_focus = {},
     always_divide_middle = true,
     globalstatus = false,
     refresh = {
@@ -39,4 +33,3 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
-END
