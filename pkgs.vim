@@ -20,14 +20,7 @@ Plug 'folke/which-key.nvim'
 Plug 'renyard/vim-git-flow-format'
 Plug 'chiel92/vim-autoformat'
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
-if has('nvim')
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-	Plug 'Shougo/deoplete.nvim'
-	Plug 'roxma/nvim-yarp'
-	Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'honza/vim-snippets'

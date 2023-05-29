@@ -10,7 +10,7 @@
   auto_install = true,
 
   -- List of parsers to ignore installing (for "all")
-  ignore_install = { "javascript" },
+  ignore_install = { "javascript", "yaml" },
 
   ---- If you need to change the installation directory of the parsers (see -> Advanced Setup)
 
