@@ -1,4 +1,5 @@
 ```
+=======
 _|      _|    _|      _|      _|  _|
 _|_|  _|_|  _|_|_|_|  _|      _|      _|_|_|  _|_|
 _|  _|  _|    _|      _|      _|  _|  _|    _|    _|
@@ -19,3 +20,4 @@ git clone https://github.com/TenTypekMatus/
 
 # Keybinds
 `:WhichKey` or press E on the homepage.
+
