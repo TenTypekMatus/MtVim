@@ -1,6 +1,5 @@
 call plug#begin('~/.local/share/mtvim/plugins')
 Plug 'chrisbra/colorizer'
-Plug 'dense-analysis/ale'
 Plug 'romgrk/barbar.nvim'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-lualine/lualine.nvim'
@@ -24,7 +23,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'honza/vim-snippets'
-Plug 'ervandew/supertab'
 Plug 'flazz/vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 if has('nvim')
