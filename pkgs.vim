@@ -1,6 +1,7 @@
 call plug#begin('~/.local/share/mtvim/plugins')
 Plug 'chrisbra/colorizer'
 Plug 'romgrk/barbar.nvim'
+Plug 'rust-lang/rust.vim'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'preservim/nerdtree'
