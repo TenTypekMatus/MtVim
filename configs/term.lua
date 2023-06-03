@@ -1,2 +1,2 @@
 require("toggleterm").setup()
-vim.cmd('nnoremap <C-S-t> :ToggleTerm<CR>')
+vim.cmd('nnoremap <A-S-t> :ToggleTerm<CR>')
