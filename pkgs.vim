@@ -1,4 +1,6 @@
 call plug#begin('~/.local/share/mtvim/plugins')
+Plug 'ervandew/supertab'
+Plug 'loctvl842/monokai-pro.nvim'
 Plug 'chrisbra/colorizer'
 Plug 'romgrk/barbar.nvim'
 Plug 'rust-lang/rust.vim'

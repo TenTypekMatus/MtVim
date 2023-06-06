@@ -7,9 +7,4 @@ let g:coc_filetype_map = {
 		let col = col('.') - 1
 		return !col || getline('.')[col - 1]  =~# '\s'
 	endfunction
-
-	inoremap <silent><expr> <Tab>
-	\ coc#pum#visible() ? coc#pum#next(1) :
-	\ CheckBackspace() ? "\<Tab>" :
-	\ coc#refresh()
 ]])
