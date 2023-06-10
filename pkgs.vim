@@ -1,5 +1,4 @@
 call plug#begin('~/.local/share/mtvim/plugins')
-Plug 'ervandew/supertab'
 Plug 'loctvl842/monokai-pro.nvim'
 Plug 'chrisbra/colorizer'
 Plug 'romgrk/barbar.nvim'
@@ -23,22 +22,13 @@ Plug 'SirVer/ultisnips'
 Plug 'folke/which-key.nvim'
 Plug 'renyard/vim-git-flow-format'
 Plug 'chiel92/vim-autoformat'
-Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ms-jpq/coq_nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-tree/nvim-web-devicons'
-Plug 'honza/vim-snippets'
 Plug 'flazz/vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
-if has('nvim')
-	function! UpdateRemotePlugins(...)
-		" Needed to refresh runtime files
-		let &rtp=&rtp
-		UpdateRemotePlugins
-	endfunction
-	Plug 'gelguy/wilder.nvim', { 'do': function('UpdateRemotePlugins') }
-else
-	Plug 'gelguy/wilder.nvim'
-endif
+Plug 'L3MON4D3/LuaSnip', {'tag': '*', 'do': 'make install_jsregexp'}
+Plug 'folke/noice.nvim'
+Plug 'MunifTanjim/nui.nvim'
 Plug 'ollykel/v-vim'
 call plug#end()
