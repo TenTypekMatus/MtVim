@@ -1,7 +1,7 @@
 call plug#begin('~/.local/share/mtvim/plugins')
 Plug 'loctvl842/monokai-pro.nvim'
 Plug 'chrisbra/colorizer'
-Plug 'romgrk/barbar.nvim'
+Plug 'nanozuki/tabby.nvim'
 Plug 'rust-lang/rust.vim'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-lualine/lualine.nvim'
@@ -30,5 +30,6 @@ Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 Plug 'L3MON4D3/LuaSnip', {'tag': '*', 'do': 'make install_jsregexp'}
 Plug 'folke/noice.nvim'
 Plug 'MunifTanjim/nui.nvim'
+Plug 'rcarriga/nvim-notify'
 Plug 'ollykel/v-vim'
 call plug#end()
