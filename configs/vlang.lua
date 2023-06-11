@@ -16,4 +16,6 @@ let g:v_highlight_function_calls = 0
 
 let g:v_highlight_fields = 0
 let g:v_autofmt_bufwritepre = 1
+au BufNewFile,BufRead *.v set filetype=vlang
 ]])
+require('lspconfig').vls.setup{}

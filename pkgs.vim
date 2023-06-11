@@ -17,13 +17,16 @@ Plug 'mattn/emmet-vim'
 Plug 'nvim-neorg/neorg' | Plug 'lepture/vim-jinja'
 Plug 'glepnir/dashboard-nvim'
 Plug 'ryanoasis/vim-devicons'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'SirVer/ultisnips'
 Plug 'folke/which-key.nvim'
 Plug 'renyard/vim-git-flow-format'
 Plug 'chiel92/vim-autoformat'
-Plug 'ms-jpq/coq_nvim'
 Plug 'tpope/vim-fugitive'
+Plug 'Shougo/ddc.vim'
+Plug 'vim-denops/denops.vim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'flazz/vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
@@ -32,4 +35,5 @@ Plug 'folke/noice.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'rcarriga/nvim-notify'
 Plug 'ollykel/v-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
