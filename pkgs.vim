@@ -25,8 +25,6 @@ Plug 'folke/which-key.nvim'
 Plug 'renyard/vim-git-flow-format'
 Plug 'chiel92/vim-autoformat'
 Plug 'tpope/vim-fugitive'
-Plug 'Shougo/ddc.vim'
-Plug 'vim-denops/denops.vim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'flazz/vim-colorschemes'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
